@@ -18,12 +18,12 @@ var timesAndAddIncrement = function(start, base, limit){
   for(var i = start; i < limit; i++){
     var num = i * base;
 
-    var numnum = 0;
-    for(var ii = 0; ii < i; ii++){
-      numnum += ii;
+    var num2 = 0;
+    for(var i2 = 0; i2 < i; i2++){
+      num2 += i2;
     }
 
-    arr.push(num + numnum);
+    arr.push(num + num2);
 
   }
 
